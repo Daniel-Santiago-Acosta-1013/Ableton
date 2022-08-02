@@ -72,6 +72,20 @@ img {
     margin-right: 20%;
 }
 
+.container-text-1 {
+    text-align: left;
+    padding-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container-text-2 {
+    text-align: left;
+    padding-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 p {
     margin-top: 4%;
     font-size: 1.2em;
@@ -116,6 +130,20 @@ p {
     z-index: -1;
 }
 
+.video-container {
+    padding-top: 10%;
+    padding-left: 20%;    
+}
+
+video {
+    width: 75%;
+    height: 75%;       
+}
+
+.name-author {
+    margin-top: 0.5em;
+    font-size: 1em;
+}
 
 .container-img {
     display: flex;
