@@ -8,6 +8,7 @@ body {
     background-color: #fff;
     padding: 0px;
     margin: 0px;
+    z-index: 1;
 }
 
 * {
@@ -64,6 +65,57 @@ img {
     height: 100%;
     width: 100%;
 }
+
+.container-text {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    margin-top: 4%;
+    font-size: 1.2em;
+}
+
+.gallery {
+    margin-top: 10%;
+    
+}
+
+.yelloow-square {
+    margin-left: 40%;
+    margin-right: 0;
+    width: 60vw;
+    height: 48vw;
+    position: absolute;
+    background-color:#fbffa7;
+    z-index: -1;
+}
+
+
+.imagen-1 {
+    margin-top: 6%;
+    margin-left: 14%;
+    margin-right: 0;
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    z-index: -1; 
+}
+
+.imagen-2 {
+    padding-top: 16%;
+    padding-right: 50%;
+    margin-left: 60%;
+    margin-right: 0;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 15px;
+    top:15px;
+    z-index: -1;
+}
+
 
 .container-img {
     display: flex;
