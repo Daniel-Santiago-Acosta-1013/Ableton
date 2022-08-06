@@ -271,4 +271,29 @@ video {
     padding-top: 15%;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+/* espacio de informacion, contenedores pertinentes */
+
+.container-information {
+    width: 60%;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: black;
+}
+
+.information-right {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+.information-left {
+    width: 50%;
+    height: 300px;
+    background-color: yellow;
+    float: right;
 }
