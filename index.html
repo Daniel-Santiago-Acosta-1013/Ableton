@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/jpg" href="./img/bxl-joomla.svg">
     <title>Ableton</title>
 </head>
 
@@ -27,6 +29,7 @@
 
     <main>
         <div class="container-img">
+            <div class="text-img">Ableton</div>
             <img class="header-img" src="img/imagen de chica.jpg" alt="imagen_girl">
         </div>
     
@@ -39,7 +42,7 @@
     
         <div class="gallery">
             <div class="yelloow-square"></div> 
-                <img class="imagen-1" src="./img/pexels-andrew-neel-3178818.jpg" alt="">          
+                <img class="imagen-1" src="./img/pexels-andrew-neel-3178818.jpg" alt="">
                 <img class="imagen-2" src="./img/pexels-jeshootscom-442573.jpg" alt="">
         </div>
     
@@ -94,18 +97,72 @@
         </article>
     
         <div class="container-information">     
-    
-            <div class="information-right">
-                <p>hola yo voy a la derecha</p>
+            <img class="container-information-img" src="./img/reunion.jpg" alt="executive meeting">
+            <div class="container-information-text">
+                <p class="information-text">We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p>
+                <p><a class="link-information-text" href="#">See latest jobs ><a></p>
             </div>
-            
-            <div class="information-left">
-                <p>hola yo voy a la izquierda</p>
-            </div>
-    
         </div>
-
     </main>
+
+    <div class="container-footer"></div>
+    <footer>
+    <!-- Footer main -->
+    <section class="ft-main">
+        <div class="ft-main-item">
+        <h2 class="ft-title">Education</h2>
+        <ul>
+            <li><a href="#">Offers for students and teachers ></a></li>
+            <li><a href="#">Ableton for the Classroom ></a></li>
+            <li><a href="#">Ableton for Colleges and Universities ></a></li>
+        </ul>
+        </div>
+        <div class="ft-main-item">
+        <h2 class="ft-title">Community</h2>
+        <ul>
+            <li><a href="#">Find Ableton User Groups ></a></li>
+            <li><a href="#">Find Certified Training ></a></li>
+            <li><a href="#">Become a Certified Trainer ></a></li>
+        </ul>
+        </div>
+        <div class="ft-main-item">
+        <h2 class="ft-title">Distributors</h2>
+        <ul>
+            <li><a href="#">Find Distributors ></a></li>
+            <li><a href="#">Try Push in-store ></a></li>
+        </ul>
+        </div>
+        <div class="ft-main-item">
+        <h2 class="ft-title">Stay Updated</h2>
+        <p>Subscribe to our newsletter to get our latest news.</p>
+        <form>
+            <input type="email" name="email" placeholder="Enter email address">
+            <input type="submit" value="Subscribe">
+        </form>
+        </div>
+    </section>
+
+    <!-- Footer social -->
+    <section class="ft-social">
+        <ul class="ft-social-list">
+        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+        <li><a href="#"><i class='bx bxl-linkedin'></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitch'></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+        </ul>
+    </section>
+
+    <!-- Footer legal -->
+    <section class="ft-legal">
+        <ul class="ft-legal-list">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li>&copy; 2022 Copyright Nowrap Inc.</li>
+        </ul>
+    </section>
+    </footer>
 
     <script src="./index.js"></script>
 </body>
