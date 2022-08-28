@@ -1,8 +1,16 @@
 body {
     font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
+    margin-top: 5vw;
 }
-  
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* ---------------navbar---------------- */
+
 #navbar {
     overflow: hidden;
     background-color: #fff;
@@ -11,11 +19,6 @@ body {
     z-index: 1;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
- 
 .nav_item, .nav_logo{
     float: left;
     display: block;
@@ -49,17 +52,7 @@ body {
     color: black;
 }
     
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    width: 100%;  /* tamaño */
-}
-  
-.sticky {
-    padding-top: 60px;
-}
+/* ---------------navbar---------------- */
 
 .container-img {
     position: relative;
